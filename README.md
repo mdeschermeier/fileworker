@@ -1,4 +1,4 @@
-mdeschermeier\FileWorker\FileWorker
+mdeschermeier\FileWorker
 ===============
 
 A simple package for searching, renaming, deleting, reading, and writing .csv
