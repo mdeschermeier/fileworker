@@ -1,0 +1,16 @@
+{
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "name": "mdeschermeier/FileWorker",
+    "autoload": {
+        "psr-4": {
+            "mdeschermeier\\FileWorker\\": "src"
+        }
+    },
+    "require-dev": {
+		"phpdocumentor/phpdocumentor": "^2.9",
+        "evert/phpdoc-md": "^0.2.0"
+    },
+    "require": {
+    }
+}
