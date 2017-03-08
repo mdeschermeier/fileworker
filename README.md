@@ -159,3 +159,5 @@ class methods. Returns a pattern that matches everything by default.
 #### Arguments
 * $term **string**
 * $regex_passed **boolean**
+
+README.md generated with evert/phpdoc-md.
