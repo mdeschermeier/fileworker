@@ -1,7 +1,7 @@
 {
     "license": "MIT",
     "minimum-stability": "dev",
-    "name": "mdeschermeier/file-worker",
+    "name": "mdeschermeier/fileworker",
     "autoload": {
         "psr-4": {
             "mdeschermeier\\FileWorker\\": "src"
