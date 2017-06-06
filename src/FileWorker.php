@@ -110,7 +110,7 @@ class FileWorker{
 		try{
 			$files = array();
 			$regex = self::buildRegex($filetypes, $regex_passed);
-			foreach (new DirectoryIterator($dir) as $file){
+			foreach (new \DirectoryIterator($dir) as $file){
 				if ($file->isFile()){
 					$filename = $file->getFilename();
 					$fileparts = explode('.', $filename);
@@ -142,7 +142,7 @@ class FileWorker{
 		try{
 			$ret_files = array();
 			$regex = self::buildRegex($term, $regex_passed);
-			foreach (new DirectoryIterator($dir) as $file){
+			foreach (new \DirectoryIterator($dir) as $file){
 				if ($file->isFile()){
 					$basename = $file->getBasename();
 					if (preg_match($regex, $basename)){
